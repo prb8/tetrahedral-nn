@@ -1,4 +1,7 @@
-# Tetrahedral Neural Network Architecture
+## Tetrahedral Neural Network Architecture
+
+Author: Philipp Remy Bartholomäus  
+Date: October 30, 2025
 
 A novel neural network architecture with tetrahedral topology proven to generalize arithmetic from [-9; 9] to trillions (float32 precision limited).
 
