@@ -133,6 +133,11 @@ Michael Levin's work on morphogenetic fields, bioelectric networks, and self-org
 This work specifically contributes:
 1. **Hybrid attention architecture** combining linear (edges) + 3-point (faces) on tetrahedral topology
 2. **Extreme generalization proof** (1000× arithmetic extrapolation, float-precision limited)
+
+# Future Work (Roadmap)
+
+- [x] Arithmetic generalization proof
+- [ ] 3D geometric learning (in progress)
 3. **Bidirectional operation** (compression 4→1 and expansion 1→4)
 4. **Domain-agnostic geometric scaffold** for self-organizing computation
 
