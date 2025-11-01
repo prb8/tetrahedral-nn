@@ -74,7 +74,7 @@ python train_example.py
 ```
 
 This will:
-1. Train on [-9, 9] exhaustively (19,683 samples)
+1. Train on [-9, 9] exhaustively (361 samples)
 2. Test generalization at 10-100, 100-1000, 1000-10000 ranges
 3. Display results showing float-precision-limited generalization
 4. Establish baseline for future experiments
