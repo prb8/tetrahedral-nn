@@ -18,14 +18,14 @@ The tetrahedral topology provides the geometric structure for the network to sel
 
 ### Arithmetic Generalization
 - **Train range:** [-9, 9] (exhaustive dataset)
-- **Test range:** Up to 10,000+ (and scales to trillions on 2-input summation)
-- **Extrapolation:** 1000Ã— beyond training range
+- **Test range:** Up to 10,000+ (and scales to trillions)
+- **Extrapolation:** 1000x — beyond training range
 - **Error:** Float32 precision limited (~1e-7 relative error)
-- **Mechanism:** Architecture enables conceptual learning, not memorization
+- **Mechanism:** Architecture seems to learn Topology
 
 ### Inverse Operations (Decomposition)
-- **Composition:** (a, b, c, d) â†’ sum (compression: 4â†’1)
-- **Decomposition:** num â†’ (num/4, num/4, num/4, num/4) (expansion: 1â†’4)
+- **Composition:** (a, b, c, d) → sum (compression: 4 → 1)
+- **Decomposition:** num → (num/4, num/4, num/4, num/4) (expansion: 1 → 4)
 - **Finding:** Architecture works bidirectionally
 - **Implications:** Symmetric processing capabilities
 
